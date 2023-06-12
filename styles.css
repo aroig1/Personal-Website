@@ -3,14 +3,42 @@
 }
 
 body {
-    background-color:rgb(21, 21, 21);
+    background-color:rgba(20, 20, 20, .4);
     margin: 0 ;
     padding: 0;
     color: white;
+    background-image: url("images/background7.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.about-me {
+    background-color:rgba(20, 20, 20, .4);
+    background-image: url("images/background5.jpg");
+}
+
+.resume {
+    background-color:rgba(20, 20, 20, .4);
+    background-image: url("images/background7.jpg");
+}
+
+.projects {
+    background-color:rgba(2, 2, 2, .9);
+    background-image: url("images/background6.jpg");
+}
+
+.goals {
+    background-color:rgba(2, 2, 2, .9);
+    background-image: url("images/background3.jpg");
+}
+
+.contact {
+    background-color:rgba(2, 2, 2, .9);
+    background-image: url("images/background4.jpg");
 }
 
 .main-header {
-    background-color:rgba(255, 255, 255, .3);
+    background-color:rgba(86, 86, 86, 1);
     padding: 5% 2% 0 5%;
 }
 
@@ -61,7 +89,7 @@ section {
 .img-text-container {
     display: flex;
     align-items: center;
-    background-color:rgba(155, 155, 155, 0.3);
+    background-color:rgba(83, 83, 83, 0.7);
     padding: 0;
     margin: 15px 0;
     border-radius: 25px;
@@ -102,7 +130,7 @@ section {
     flex-grow: 1;
     min-width: 50%;
     margin: 2%;
-    background-color:rgba(155, 155, 155, 0.3);
+    background-color:rgba(83, 83, 83, 0.7);
     padding: 25px;
     border-radius: 25px;
 }
@@ -125,7 +153,7 @@ section {
 }
 
 .resume-page-container .right-container .experience {
-    background-color:rgba(155, 155, 155, 0.3);
+    background-color:rgba(83, 83, 83, 0.7);
     padding: 25px;
     border-radius: 25px;
 }
@@ -146,8 +174,9 @@ section h2 {
     padding: 0;
 }
 
-.contact {
+.contact-text {
     text-align: center;
+    margin: 5%;
 }
 
 a {
