@@ -125,7 +125,7 @@ body {
 
     .nav ul li {
         padding: 2%;
-        border-top: 1px solid black;
+        border-top: 1px solid white;
     }
 
     .nav.active {
