@@ -300,7 +300,7 @@ footer {
     height: 60px;
 }
 
-@media (max-width: 665px) and (min-width: 500px) {
+@media (max-width: 665px) and (min-width: 400px) {
     .goals footer {
         position: relative;
     }
@@ -312,7 +312,7 @@ footer {
     }
 
     .resume .footer-container ul li, .projects .footer-container ul li {
-        margin: 0 5%;
+        margin: 0 2%;
     }
 }
 
