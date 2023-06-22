@@ -300,19 +300,19 @@ footer {
     height: 60px;
 }
 
-@media (max-width: 665px) and (min-width: 400px) {
+@media (max-width: 665px) {
     .goals footer {
         position: relative;
     }
 }
 
 @media (max-width: 400px) {
-    .goals footer, .about-me footer {
+    .about-me footer {
         position: relative;
     }
 
     .resume .footer-container ul li, .projects .footer-container ul li {
-        margin: 0 2%;
+        margin: 0;
     }
 }
 
