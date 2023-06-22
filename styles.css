@@ -279,12 +279,6 @@ footer {
     width: 100%;
 }
 
-@media (max-width: 665px) {
-    .goals footer {
-        position: relative;
-    }
-}
-
 .footer-container {
     flex-grow: 1;
 }
@@ -298,12 +292,28 @@ footer {
 
 .footer-container ul li {
     display: block;
-    margin: 0 20px;
+    margin: 0 30px;
 }
 
 .footer-container img {
     width: 60px;
     height: 60px;
+}
+
+@media (max-width: 665px) and (min-width: 500px) {
+    .goals footer {
+        position: relative;
+    }
+}
+
+@media (max-width: 400px) {
+    .goals footer, .about-me footer {
+        position: relative;
+    }
+
+    .resume .footer-container ul li, .projects .footer-container ul li {
+        margin: 0 5%;
+    }
 }
 
 a {
