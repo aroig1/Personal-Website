@@ -312,7 +312,7 @@ footer {
     }
 
     .resume .footer-container ul li, .projects .footer-container ul li {
-        margin: 0;
+        margin: 0 5px;
     }
 }
 
