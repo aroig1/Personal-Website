@@ -33,6 +33,34 @@
         <h2 class="projects-header">Projects</h2>
 
         <div class="img-text-container">
+            <video controls poster="images/tanks.PNG">
+                <source src="videos/tanksVideo.mp4" type="video/mp4" alt="This is a video of the Tanks Game.">
+            </video>
+            <div class="text">
+                <h3>Tanks! (Python)</h3>
+                <ul>
+                    <li>For this project I recreated the classic Wii Play tanks game using pygame's GUI in python. 
+                        This project really helped me put an object oriented programming style into practice as 
+                        each tank, projectile, landmine, and even block you see in this game was 
+                        represented using an object of a class. I created a structure of inheritance 
+                        from a base 'Tank' class with several subclasses such as 'MovingEnemyTank' and 
+                        even more specific subclasses such as 'RedTank' to account the the different 
+                        abilities that each of my 5 enemy tanks had. I also had to create physics in 
+                        this game focusing especially on the bouncing of projectiles along borders and 
+                        blocks of each level as well as rotating said projectile's image to the correct 
+                        direction each time they were shot or bounced. In addition, I was able to 
+                        incorporate the A* pathfinding method into this program so that CPU tanks could 
+                        move towards the player through the various level maps. Another feature I 
+                        implemented was loading levels through a json file, which made adding new 
+                        levels much quicker and easier. Lastly, I got to have some fun adding background 
+                        music and sound effects that matched those in the original game.
+                    </li>
+                    <li>GitHub Link: <a href="https://github.com/aroig1/Tanks">Tanks</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="img-text-container">
             <video controls poster="images/flappybird.PNG">
                 <source src="videos/flappybird.mp4" type="video/mp4" alt="This is a video of the Flappy Bird Game.">
             </video>
