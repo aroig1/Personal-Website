@@ -33,6 +33,45 @@
         <h2 class="projects-header">Projects</h2>
 
         <div class="img-text-container">
+            <video controls poster="images/UASAMS.PNG">
+                <source src="videos/UASAMS_Demo.mp4" type="video/mp4" alt="This is a video of a student applicant user within the Scholarship Management Application.">
+            </video>
+            <div class="text">
+                <h3>Scholarship Management Application (html/css/Javascript/SQL)</h3>
+                <ul>
+                    <li>
+                        This project is a full stack web application that can be used to manage and apply 
+                        to scholarships. It was created as a part of my SFWE 402 (DevSecOps) class with 3 teammates. 
+                        This application consists of four subsystems: Frontend, Backend, Matching Engine, and Reporting Engine. 
+                        This application has various users including students, donors, and administrators. Students are capable of applying 
+                        to scholarships, changing their user and application information, as well as viewing the status of 
+                        applications. Donors can create scholarships with a variety of requirements (ex: majors, minor, GPA), 
+                        edit scholarships, view applicants for their scholarships, and suggest applicants to be awarded the 
+                        scholarship. The donors have all the same capabilities as a donor, however they can also search and modify
+                        user information, and award the scholarships to applicants.
+                    </li>
+                    <li>
+                        This application uses a fullstack framework known as SvelteKit, which primarily consists of HTML, CSS, and 
+                        Javascript (or Typescript). It included a GitLab pipeline which has build, test, and deployment stages
+                        that automatically run when new commits or merges are made to the codebase in order to automatically test
+                        and deploy our project. In addition, this project was hosted using Cloudflare Pages, and uses Cloudflare D1's
+                        SQL database to store user, scholarship, and application data.
+                    </li>
+                    <li>
+                        Within my team, I my role was primarily being a full stack developer as I handled both front and backend. 
+                        I handled much of the backend components revolving loading and displaying the data dynamically based 
+                        on user roles and which part of the website was being navigated at that moment. In addition, I was primarily responsible 
+                        for creating and styling all the GUIs within our website. Lastly, I developed the utility functions
+                        which contained SQL querries to retrieve and save data to our database.
+                    </li>
+                    <li>GitHub Link: <a href="https://github.com/aroig1/Scholarship-Application-Management-System">
+                        Scholarship Application Management System
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="img-text-container">
             <video controls poster="images/tanks.PNG">
                 <source src="videos/tanksVideo.mp4" type="video/mp4" alt="This is a video of the Tanks Game.">
             </video>
